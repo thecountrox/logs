@@ -1,0 +1,13 @@
+Why did I make this in the first place even 🤔🤔? <br>
+Answer: Im not really sure, I think it's because I want to look smart 
+by making something from scratch.
+<br>
+Another reason might be complete control, with this I can modify anything I want and have full control<br>
+granted that might make the starting page look a bit bad now but atleast I know that with 3 clicks I can change the css<br>
+It's also because logginng thoughts is something really interesting, your state of mind differs constantly, granted not rashly 
+rather continously but that's just all the more reason to note it down, you barely notice how you change mentally so this way you can 
+see what your thought process was like. 
+<br>
+<b>*realisation*</b>
+<br>
+Mfw I built myself an online journal shitty twitter clone 💀💀💀
