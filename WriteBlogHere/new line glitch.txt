@@ -1,0 +1,3 @@
+There's this glitch I have to fix,<br>
+Looks like there's an extra new line appended to each post not sure why<br>
+<b>might</b> be from my conv2html program appending an extra "\n"
