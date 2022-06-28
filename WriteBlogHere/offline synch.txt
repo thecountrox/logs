@@ -1,0 +1,5 @@
+I need to figure out a way to synch this from multiple sources, <br>
+The structure of multiple sources are similar but not <br>exact<br>.
+The number of streams is not limited and can grow.<br>
+Each stream ought to have a native format<br> 
+At regular (or irregular) intervals a small chunk of data is taken from central repo and <u>synchronised</u>.
