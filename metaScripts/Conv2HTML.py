@@ -85,7 +85,10 @@ def Main():
             print("Memory Updated.")
 
             #Updating data.js
-            with open('data.js','r') as dataF:
+
+            dataJSPath = r"../js/data.js"
+
+            with open(dataJSPath,'r') as dataF:
                 data = dataF.read()
                 s = data.index('/*startIndex*/')
                 e = data.index('/*endIndex*/')
@@ -93,7 +96,7 @@ def Main():
             
             myList.append(newPost.makeHtmlObj())
 
-            with open('data.js','w') as dataF:
+            with open(dataJSPath,'w') as dataF:
                 #How tf is this even allowed man
                 fileContent = f"""
 var blogContent =  /*startIndex*/{myList}/*endIndex*/"""+'\n'+"function gimmeContent(){return blogContent}"
