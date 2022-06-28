@@ -1,0 +1,3 @@
+HMMMM I want to make my own set of utils to use while writing code<br>
+I find myself writing code I've already written too many times.<br>
+(I also need an undo button on this, might do that later).
