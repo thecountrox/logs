@@ -1,3 +1,3 @@
 
-var blogContent =  /*startIndex*/['<div id="1" class="post">\n<b><u>The First Post</u></b> Posted on 2022-06-28 14:20\n<br>\nThe First post,\nthe guilt for not studying for JEE is heavy, almost crippling.\nbye.\n</div>\n']/*endIndex*/
+var blogContent =  /*startIndex*/['<div id="1" class="post">\n<b><u>The First Post</u></b> Posted on 2022-06-28 14:20\n<br>\nThe First post,\nthe guilt for not studying for JEE is heavy, almost crippling.\nbye.\n</div>\n', '\n<div id="2" class="post">\n<b><u>studying makes me sleepy idk why</u></b> Posted on 2022-06-28 14:32\n<br>\nNot sure why but everytime I open a textbook, never feel like studying<br>\nIt\'s so bad I literally made this "thing" instead of finishing that one atoms chapter <i>sigh</i>.\n</div>\n']/*endIndex*/
 function gimmeContent(){return blogContent}
