@@ -1,0 +1,14 @@
+I've just now started this project and my escapist tendencies are already flaring up,
+<br><br>
+<i>HMMM</i> wut 2 do<br>
+Here's a todo list of things I want to implement<br><br>
+<h2>Todo:</h2>
+<ol type="1">
+    <li>Undo Button</li>
+    <li>Multiple themes (Current one's the same mood as 10th std shan10 discovering a cmd prompt fr)</li>
+    <li>CLI program to write a post and post it</li>
+    <li>CLI program to manage posts (edit, etc)</li>
+    <li>Outsource the post making part from Spaghetti code to seperate function</li>
+</ol>
+<br>
+<img src="https://media.discordapp.net/attachments/867447574784639047/991543777481203852/unknown.png" alt="Its morbin time.">
