@@ -1,0 +1,6 @@
+Right now I load all divs at once which is kinda fine now because I have so little content,<br>
+but after a while that gets stuffy/HTML becomes too big.<br>
+What if I selectively loaded from my array on scroll?<br>
+I think that would be a cool way to make a fake infinite scroll.<br>
+Might implement that later.<br>
+When the webpage takes too long to load. 
