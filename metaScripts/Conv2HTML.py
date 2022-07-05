@@ -2,6 +2,8 @@ from os import listdir
 from os.path import isfile, join, getctime
 from datetime import datetime
 import json as JSON
+from html.parser import HTMLParser
+
 
 class post:
     def __init__(self,id,title,dateTime,content):
@@ -35,6 +37,21 @@ def readFileContent(filePath):
     with open(filePath, 'r') as f:
         content = f.read()
         return content
+
+def readDataFile(dataJSPath):
+    with open(dataJSPath,'r') as dataF:
+        data = dataF.read()
+        s = data.index('/*startIndex*/')
+        e = data.index('/*endIndex*/')
+        myList = eval(data[s+len("/*startIndex*/"):e]) 
+    return myList 
+
+def writeDataFile(dataJSPath,myList):
+    with open(dataJSPath,'w') as dataF:
+        #How tf is this even allowed man
+        fileContent = f"""var blogContent =  /*startIndex*/{myList}/*endIndex*/"""+'\n'+"function gimmeContent(){return blogContent}"
+        dataF.write(fileContent)
+    print("data.js Updated.")
 
 def Main():
     readFromDirPath = r"../WriteBlogHere/"
@@ -85,24 +102,12 @@ def Main():
             print("Memory Updated.")
 
             #Updating data.js
-
             dataJSPath = r"../js/data.js"
+            myList = readDataFile(dataJSPath)
+            writeDataFile(dataJSPath,myList)
 
-            with open(dataJSPath,'r') as dataF:
-                data = dataF.read()
-                s = data.index('/*startIndex*/')
-                e = data.index('/*endIndex*/')
-                myList = eval(data[s+len("/*startIndex*/"):e]) #LMAO LETS GOOOO
-            
-            myList.append(newPost.makeHtmlObj())
-
-            with open(dataJSPath,'w') as dataF:
-                #How tf is this even allowed man
-                fileContent = f"""
-var blogContent =  /*startIndex*/{myList}/*endIndex*/"""+'\n'+"function gimmeContent(){return blogContent}"
-                dataF.write(fileContent)
-            print("data.js Updated.")
-Main()
+if __name__ == "__main__":
+    Main()
 
 
 """
