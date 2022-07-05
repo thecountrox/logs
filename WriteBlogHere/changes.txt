@@ -1,0 +1,1 @@
+Going to code the update feature now, implementing a full flush system for now because it's easier.
