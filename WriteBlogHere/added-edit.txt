@@ -1,5 +1,9 @@
+<div id="41" class="post">
+<b><u>added-edit</u></b> Posted on 2022-07-06 01:17
+<br>
 It took me way longer than it had to for me to implement edit (almost 4 hrs)<br>
 But I finally did it. The reason it took taht long was due to me not finalizing what way I wanted to tackle this<br>
 and how I actually wrote the inital dom appender, and I also wanted it to be on par with what was there in the blog<br>
 So that took a while. Happy with the final result tho.<br>
 <img src="https://media.discordapp.net/attachments/726408522329489419/993962537123065927/unknown.png?width=1440&height=469">
+</div>
