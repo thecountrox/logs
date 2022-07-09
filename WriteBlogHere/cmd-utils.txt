@@ -1,0 +1,4 @@
+Everything I need to use and track on a daily basis, I must make it into a cmd util<br>
+It makes sense as I always have windows terminal open for my nav + other utils<br>
+I'll shift my env from windows batch to powershell and do tracking on lst, that <i>should</i> help with discipline building and 
+tracking.
