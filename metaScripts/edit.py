@@ -1,7 +1,7 @@
 #reloading all files into datajs after editing
 from os import listdir
 from os.path import isfile, join
-from Conv2HTML import post, readDataFile, writeDataFile, readFileContent
+from Conv2HTML import readDataFile, writeDataFile
 
 def getMultiLineInput(msg):
     print(msg+"\n")
@@ -51,3 +51,10 @@ def Main():
     
 if __name__ == "__main__":
     Main()
+
+"""
+NOTE: 
+The actual saved text files exist only as a redundancy, i.e in case something goes horribly wrong when I updated some site mechanics/shift sites
+I still retain the content. Them having added html doesn't matter, incase it makes my job easier in the future.
+Ofc I could ignore all of them and just pick up data.js but its nice to have both layers.
+"""
