@@ -2,8 +2,6 @@ from os import listdir
 from os.path import isfile, join, getctime
 from datetime import datetime
 import json as JSON
-from html.parser import HTMLParser
-
 
 class post:
     def __init__(self,id,title,dateTime,content):
@@ -13,14 +11,7 @@ class post:
         self.content = content
 
     def makeHtmlObj(self):
-        # htmlStr = f'<div id="{self.id}" class="post"><b><u>{self.title}</u></b></div><br/><b>{self.dateTime}</b></br/>{self.content}</div>'
-        htmlStr =f"""
-<div id="{self.id}" class="post">
-<b><u>{self.title}</u></b> Posted on {self.dateTime}
-<br>
-{self.content}
-</div>
-"""
+        htmlStr =f"""<div id="{self.id}" class="post"><b><u>{self.title}</u></b> Posted on {self.dateTime}<br>{self.content}</div>"""
         return htmlStr
 
 def getJSON(filePath):
@@ -48,7 +39,6 @@ def readDataFile(dataJSPath):
 
 def writeDataFile(dataJSPath,myList):
     with open(dataJSPath,'w') as dataF:
-        #How tf is this even allowed man
         fileContent = f"""var blogContent =  /*startIndex*/{myList}/*endIndex*/"""+'\n'+"function gimmeContent(){return blogContent}"
         dataF.write(fileContent)
     print("data.js Updated.")
@@ -68,7 +58,7 @@ def Main():
     ctimes = [getctime(join(readFromDirPath,f)) for f in listOfFiles]
     formattedCT = [format_ct(t) for t in ctimes]
 
-    #Im going to be honest here, I wrote this a while ago but I forgot what it does but I know it's important 
+    #Im going to be honest here, I wrote this a while ago but I forgot what it does but I know it's important  (it makes a (title,timestamp) couple)
     couples = [(x,formattedCT[i]) for i,x in enumerate(ctimes)]
 
     #format of the dict -> {'Blog Title.txt': (CT_Float, formattedCT_String),..}
@@ -109,13 +99,3 @@ def Main():
 
 if __name__ == "__main__":
     Main()
-
-
-"""
-Load JSON Values -- done
-Look at dict and check for new uploads -- done
-if new upload(s) then take each new upload, take the title, create time and content and put it in the template form --done
-take that post from the template you made (make a class its easier to make an object then) --done
-then shove that object in data.js 
-figure out what to do from there later
-"""
