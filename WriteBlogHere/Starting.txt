@@ -1,0 +1,3 @@
+Im going to start competitve programming from today.<br>
+I need some mental redemption that tells me I have brains again so here starts my grind.<br><br>
+Also I think I might start implementing a markdown editor or markdown converter for my blog 
