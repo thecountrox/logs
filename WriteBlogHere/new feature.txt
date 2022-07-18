@@ -1,0 +1,3 @@
+So I added markdown to the thing and I hope it will make my life a bit easier from now on  
+Also I dont know how to do break lines here so Im going to just wing it sometimes by shoving a br tag
+<br>like here<br>if this doesnt work that will be sad to fix

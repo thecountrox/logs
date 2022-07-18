@@ -78,7 +78,8 @@ def Main():
             date = postsDict[p][1]
             
             content = readFileContent(fp) #For New Version the entered content will be in markdown, we convert it to html with the parser
-            parsedContent = markdown.markdown(content)
+            parsedContent = markdown.markdown(content,extensions=['pymdownx.tilde'])
+            
 
             id = postCount+1 #we got the last known post count again from memory.json
 
