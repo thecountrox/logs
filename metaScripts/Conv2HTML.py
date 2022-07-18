@@ -2,6 +2,7 @@ from os import listdir
 from os.path import isfile, join, getctime
 from datetime import datetime
 import json as JSON
+import markdown
 
 class post:
     def __init__(self,id,title,dateTime,content):
@@ -75,10 +76,13 @@ def Main():
             fp = join(readFromDirPath,p) #filePath 
             title = p[:-4]
             date = postsDict[p][1]
-            content = readFileContent(fp)
+            
+            content = readFileContent(fp) #For New Version the entered content will be in markdown, we convert it to html with the parser
+            parsedContent = markdown.markdown(content)
+
             id = postCount+1 #we got the last known post count again from memory.json
 
-            newPost = post(id,title,date,content) #We create a new post object 
+            newPost = post(id,title,date,parsedContent) #We create a new post object 
             
             #Now it's the saving part, the things to save are as follows:
             #We have Firstly Update memory.json with both a new timeStamp and post count
