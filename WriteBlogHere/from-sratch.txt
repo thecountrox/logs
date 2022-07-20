@@ -1,0 +1,13 @@
+<div id="69" class="post"><b><u>from-sratch</u></b> Posted on 2022-07-20 09:47<br><p>Ive to set up a few things and Im putting them here so I remember:
+<ul>
+    <li> PS Set Up </li>
+    <li> Starting complete basics of OS and computers and then within a few months write my own OS</li> 
+    <li> C/C++ Dev Env and an advanced course</li> 
+    <li> Flutter dev roadmap (ditching react, native was always the better option and Im going with Vue for Web Dev)</li> 
+    <li> Detox and Habit tracker</li> 
+    <li> Go Lang Road Map (sidelining Node because Version is stupid) </li> 
+</ul>
+<br>
+<p><strong>GOD I WANT TO JUMP OFF A CLIFF AHHHHH</strong></p><br>
+<sup>edit: post number 69 :) <br>nice.</sup>
+</div>
