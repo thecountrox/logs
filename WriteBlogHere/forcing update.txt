@@ -1,0 +1,5 @@
+If you are stuck in infinite loop for VS Code and updates are failing with an error message:
+*"There was an error while Opening file handle: C:\Users\UserName\AppData\Local\Programs\Microsoft VS Code\logs\....."*
+
+Run VS Code in admin mode, you will get a pop up on the right asking you to update, run it, wait for update to install.  
+After which vscode will be back to normal

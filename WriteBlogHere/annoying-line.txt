@@ -1,0 +1,21 @@
+<div id="72" class="post"><b><u>annoying-line</u></b> Posted on 2022-07-20 13:26<br>
+<p>Get rid of annoying line across your VS Code file (specific file types in some cases)</p>
+<br>
+<img alt="Annoying Line Image" src="https://i.ibb.co/g9BZgdp/Annoying-Line.png" />
+<ol type="i">
+
+<li>Go to your settings.json (Ctrl/cmd + shift + p)</li>
+
+<li>Search for <em>"editor.rulers"</em><li>
+
+<li>you will mostly get something like this:<br>
+<img alt="Settings Part" src="https://i.ibb.co/DMq0gnX/line-Setting.png" />
+</li>
+
+<li>remove the number and set it to <code>[]</code></p></li>
+
+</ol>
+
+
+Fin.
+</div>
