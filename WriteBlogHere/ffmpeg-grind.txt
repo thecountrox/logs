@@ -1,0 +1,23 @@
+My first post exams project is going to be an ffmpeg collection which includes the following: 
+
+## Video Based:
++ Speed Video
++ Trim Video from front
++ Trim Video from back
++ Video to GIF
++ lossless/minimal loss conversions to different types
++ remove audio from video (separate into pure audio file + pure video file) 
++ add audio to video (sync)
++ Convert video into image frames as output 
++ crop video
+
+## Audio Based:
++ Trim audio from start
++ Trim audio from end
++ lossless/minimal conversion of different types
+
+I will implement these swagly 
+
+Before I do these I need to grind ffmpeg documentation which is what ill be doing for the next few days.
+
+![grind power we stay hungry we desire](https://media.discordapp.net/attachments/726408522329489419/1001910893518528593/unknown.png?width=1123&height=600)
