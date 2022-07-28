@@ -26,12 +26,12 @@ def saveJson(filePath,changedDict):
     return 
 
 def readFileContent(filePath):
-    with open(filePath, 'r') as f:
+    with open(filePath, 'r',encoding='utf-8') as f:
         content = f.read()
         return content
 
 def readDataFile(dataJSPath):
-    with open(dataJSPath,'r') as dataF:
+    with open(dataJSPath,'r',encoding='utf-8') as dataF:
         data = dataF.read()
         s = data.index('/*startIndex*/')
         e = data.index('/*endIndex*/')
@@ -39,7 +39,7 @@ def readDataFile(dataJSPath):
     return myList 
 
 def writeDataFile(dataJSPath,myList):
-    with open(dataJSPath,'w') as dataF:
+    with open(dataJSPath,'w',encoding="utf-8") as dataF:
         fileContent = f"""var blogContent =  /*startIndex*/{myList}/*endIndex*/"""+'\n'+"function gimmeContent(){return blogContent}"
         dataF.write(fileContent)
     print("data.js Updated.")
