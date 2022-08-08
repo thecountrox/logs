@@ -1,0 +1,6 @@
+LST has been set up *nice-ly* on my system.
+Soon I'll seet focus items and start noting progress on LST.
+Powershell dev ge nanu first nan batch file na mathhe barithini adhu admele 2 month li nan PS lesson mugasbittu expert level ag 
+hogthini scripting li.
+
+Also I'll be moving away from kelp as my main editor untill the unicode fix from Vishi comes in.

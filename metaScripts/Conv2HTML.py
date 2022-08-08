@@ -74,7 +74,14 @@ def Main():
             print(f"Processing {p}...")
 
             fp = join(readFromDirPath,p) #filePath 
-            title = p[:-4]
+            
+            if(p[-1:-4:-1]=="txt"):
+                title = p[:-4]
+            elif (p[-1:-3:-1]=="dm"): #hack for .md files
+                title = p[:-3]
+            else:
+                exit("Invalid File Type!...only md / txt files are accepted.")
+            
             date = postsDict[p][1]
             
             content = readFileContent(fp) #For New Version the entered content will be in markdown, we convert it to html with the parser
