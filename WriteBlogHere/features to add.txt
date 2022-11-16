@@ -1,6 +1,3 @@
-<div id="10" class="post">
-<b><u>features to add</u></b> Posted on 2022-06-29 08:51
-<br>
 I've just now started this project and my escapist tendencies are already flaring up,
 <br><br>
 <i>HMMM</i> wut 2 do<br>
@@ -16,4 +13,3 @@ Here's a todo list of things I want to implement<br><br>
 <p><sub>this post was edited on 03:45 AM 13-07-2022</sub></p>
 <br>
 <img src="https://media.discordapp.net/attachments/867447574784639047/991543777481203852/unknown.png" alt="Its morbin time.">
-</div>

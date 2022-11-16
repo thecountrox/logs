@@ -3,6 +3,11 @@ from os import listdir
 from os.path import isfile, join
 from Conv2HTML import readDataFile, writeDataFile
 
+
+"""
+Make reload method for entire file from text systems 
+"""
+
 def getMultiLineInput(msg):
     print(msg+"\n")
     print("Enter/Paste your content. Ctrl-Z to save it.\n")

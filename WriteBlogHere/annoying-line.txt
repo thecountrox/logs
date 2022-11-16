@@ -1,4 +1,3 @@
-<div id="72" class="post"><b><u>annoying-line</u></b> Posted on 2022-07-20 13:26<br>
 <p>Get rid of annoying line across your VS Code file (specific file types in some cases)</p>
 <br>
 <img alt="Annoying Line Image" src="https://i.ibb.co/g9BZgdp/Annoying-Line.png" />
@@ -15,7 +14,5 @@
 <li>remove the number and set it to <code>[]</code></p></li>
 
 </ol>
-
-
+<br>
 Fin.
-</div>

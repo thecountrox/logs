@@ -1,4 +1,4 @@
-<div id="69" class="post"><b><u>from-sratch</u></b> Posted on 2022-07-20 09:47<br><p>Ive to set up a few things and Im putting them here so I remember:
+<p>Ive to set up a few things and Im putting them here so I remember:
 <ul>
     <li> PS Set Up </li>
     <li> Starting complete basics of OS and computers and then within a few months write my own OS</li> 
@@ -9,5 +9,4 @@
 </ul>
 <br>
 <p><strong>GOD I WANT TO JUMP OFF A CLIFF AHHHHH</strong></p><br>
-<sup>edit: post number 69 :) <br>nice.</sup>
-</div>
+<sup>post number 69 :) <br>nice.</sup>
